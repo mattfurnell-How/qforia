@@ -98,6 +98,7 @@ def QUERY_FANOUT_PROMPT(q, mode):
 
     return (
         f"You are simulating Google's AI Mode query fan-out for generative search systems.\n"
+        f"Assume the user is based in the UK and is searching on Google's UK database.\n"
         f"The user's original query is: \"{q}\". The selected mode is: \"{mode}\".\n\n"
         f"Your first task is to determine the total number of queries to generate and the reasoning for this number:\n"
         f"{num_queries_instruction}\n\n"
