@@ -5,7 +5,7 @@ import json
 
 # App config
 st.set_page_config(page_title="Qforia", layout="wide")
-st.title("🔍 Qforia: Query Fan-Out Simulator for AI Surfaces")
+st.title("🔍 Howden Insurance: Query Fan-Out Simulator for AI Surfaces")
 
 # Sidebar: API key input and query
 st.sidebar.header("Configuration")
